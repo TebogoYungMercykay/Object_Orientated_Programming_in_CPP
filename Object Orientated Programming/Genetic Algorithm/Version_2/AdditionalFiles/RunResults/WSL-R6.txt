@@ -1,0 +1,57 @@
+./main
+---
+Gen 0
+Avg accuracy: 0.52
+Std: 0.0360555
+Variance: 1
+---
+Gen 1
+Avg accuracy: 0.537
+Std: 0.0340735
+Variance: 0.8
+---
+Gen 2
+Avg accuracy: 0.546
+Std: 0.0377359
+Variance: 0.6
+---
+Gen 3
+Avg accuracy: 0.552
+Std: 0.0411825
+Variance: 0.4
+---
+Gen 4
+Avg accuracy: 0.555
+Std: 0.0417732
+Variance: 0.3
+---
+Gen 5
+Avg accuracy: 0.556
+Std: 0.042
+Variance: 0.2
+---
+Gen 6
+Avg accuracy: 0.556
+Std: 0.042
+Variance: 0.2
+---
+Gen 7
+Avg accuracy: 0.556
+Std: 0.042
+Variance: 0.2
+---
+Gen 8
+Avg accuracy: 0.556
+Std: 0.042
+Variance: 0.2
+---
+Gen 9
+Avg accuracy: 0.556
+Std: 0.042
+Variance: 0.2
+---
+Run summary: 
+Avg avg: 0.549
+Avg std: 0.0400821
+Avg var: 0.41
+Execution time: 15.625ms

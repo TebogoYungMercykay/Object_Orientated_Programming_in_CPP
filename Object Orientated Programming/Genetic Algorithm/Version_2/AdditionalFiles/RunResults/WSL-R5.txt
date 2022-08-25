@@ -1,0 +1,382 @@
+./main
+---
+Gen 0
+Avg accuracy: 0.5515
+Std: 0.14628
+Variance: 0.89
+---
+Gen 1
+Avg accuracy: 0.5955
+Std: 0.150432
+Variance: 0.84
+---
+Gen 2
+Avg accuracy: 0.634
+Std: 0.163536
+Variance: 0.755
+---
+Gen 3
+Avg accuracy: 0.6735
+Std: 0.168071
+Variance: 0.66
+---
+Gen 4
+Avg accuracy: 0.7095
+Std: 0.182373
+Variance: 0.575
+---
+Gen 5
+Avg accuracy: 0.744
+Std: 0.184022
+Variance: 0.485
+---
+Gen 6
+Avg accuracy: 0.774
+Std: 0.182549
+Variance: 0.39
+---
+Gen 7
+Avg accuracy: 0.802
+Std: 0.177753
+Variance: 0.29
+---
+Gen 8
+Avg accuracy: 0.822
+Std: 0.176397
+Variance: 0.2
+---
+Gen 9
+Avg accuracy: 0.839
+Std: 0.174296
+Variance: 0.13
+---
+Gen 10
+Avg accuracy: 0.849
+Std: 0.17464
+Variance: 0.105
+---
+Gen 11
+Avg accuracy: 0.859
+Std: 0.17441
+Variance: 0.055
+---
+Gen 12
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.045
+---
+Gen 13
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 14
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 15
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 16
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 17
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 18
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 19
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 20
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 21
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 22
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 23
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 24
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 25
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 26
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 27
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 28
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 29
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 30
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 31
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 32
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 33
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 34
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 35
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 36
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 37
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 38
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 39
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 40
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 41
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 42
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 43
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 44
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 45
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 46
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 47
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 48
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 49
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 50
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 51
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 52
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 53
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 54
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 55
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 56
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 57
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 58
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 59
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 60
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 61
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 62
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 63
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 64
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 65
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 66
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 67
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 68
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 69
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 70
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 71
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 72
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 73
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Gen 74
+Avg accuracy: 0.86
+Std: 0.174356
+Variance: 0.05
+---
+Run summary: 
+Avg avg: 0.84044
+Avg std: 0.173856
+Avg var: 0.1136
+Execution time: 62.5ms
