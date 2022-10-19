@@ -13,6 +13,12 @@ ________________________________________________________________________________
     - Computer Sciences at Tuks
 ________________________________________________________________________________________
  ## Makefile
+ ##### NB: A makefile Is Included to compile and run the codes on the terminal commands:=
+- make clean
+- make
+- make run
+
+
 ```C++
 main:
 	g++ *.cpp -std=c++98 -pedantic -o main
@@ -25,10 +31,4 @@ run:
 
 tar:
 	tar -cvz *.h *.cpp -f Code.tar.gz```
-
-
-##### NB: A makefile Is Included to compile and run the codes on the terminal commands:=
-- make clean
-- make
-- make run
 ________________________________________________________________________________________
