@@ -13,6 +13,18 @@ ________________________________________________________________________________
     - Computer Sciences at Tuks
 ________________________________________________________________________________________
  ## Makefile
+'''main:
+	g++ *.cpp -std=c++98 -pedantic -o main
+
+clean:
+	rm -f *.o main
+
+run:
+	./main
+
+tar:
+	tar -cvz *.h *.cpp -f Code.tar.gz'''
+
 
 ##### NB: A makefile Is Included to compile and run the codes on the terminal commands:=
 - make clean
