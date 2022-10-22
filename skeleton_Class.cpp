@@ -1,5 +1,4 @@
-// C++ program to demonstrate function
-// declaration outside class
+// C++ program to demonstrate classes
 #include <iostream>
 
 using namespace std;
