@@ -26,7 +26,9 @@ void class_Name::printname()
 // Main function
 int main()
 {
+    // reating a Class_Name object
     class_Name obj1;
+    // Storing values.
     obj1.name = "xyz";
     obj1.id=15;
     // call printname()
