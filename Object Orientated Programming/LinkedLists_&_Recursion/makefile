@@ -10,4 +10,4 @@ run:
 	./main
 
 tar:
-	tar -cvz *.h *.cpp -f Tiyiso_Assignment_3.tar.gz
+	tar -cvz *.h *.cpp -f Assignment_3.tar.gz
