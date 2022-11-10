@@ -1,10 +1,10 @@
-#ifndef LAMB_H
-#define LAMB_H
+#ifndef LAMP_H
+#define LAMP_H
 #include "Object.h"
 
-class Lamb: public Object {
+class Lamp: public Object {
     public:
-        Lamb(int x, int y);
+        Lamp(int x, int y);
         void update();
 };
 #endif

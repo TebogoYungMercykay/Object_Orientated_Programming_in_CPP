@@ -29,6 +29,6 @@ class Object {
         void update();
         bool isSolid();
         void updateLight(char direction, int intensity);
-        void ineract();
+        void interact();
 };
 #endif
