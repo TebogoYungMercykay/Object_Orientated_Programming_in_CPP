@@ -1,0 +1,13 @@
+-- -Gen 0 Avg accuracy : 0.543 Std : 0.0519711 Variance : 1 -- -Gen 1 Avg
+       accuracy : 0.564 Std : 0.0590254 Variance : 0.8 -- -Gen 2 Avg
+           accuracy : 0.579 Std : 0.0672978 Variance : 0.6 -- -Gen 3 Avg
+               accuracy : 0.59 Std : 0.070993 Variance : 0.4 -- -Gen 4 Avg
+                   accuracy : 0.595 Std : 0.0717287 Variance : 0.3 -- -Gen 5 Avg
+                       accuracy : 0.596 Std : 0.072 Variance : 0.2 -- -Gen 6 Avg
+                           accuracy : 0.596 Std : 0.072 Variance : 0.2 -- -Gen 7 Avg
+                               accuracy : 0.596 Std : 0.072 Variance : 0.2 -- -Gen 8 Avg
+                                   accuracy : 0.596 Std : 0.072 Variance : 0.2 -- -Gen 9 Avg
+                                       accuracy : 0.596 Std : 0.072 Variance : 0.2 -- -Run
+                                           summary
+    : Avg avg : 0.5851 Avg std : 0.0681016 Avg var : 0.41 Execution
+          time : 0.007ms
