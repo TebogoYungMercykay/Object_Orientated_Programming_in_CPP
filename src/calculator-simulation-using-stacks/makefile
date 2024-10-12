@@ -1,13 +1,27 @@
-main : g++ - g main.cpp - std = c++ 98 - pedantic -
-                                o main
+main:
+	g++ *.cpp -std=c++98 -pedantic -o main
 
-                                    clean : rm -
-                                            f *.o *
-                                                    .tar
-                                                    .gz main reset clear
+run:
+	valgrind --leak-check=full ./main
 
-                                                        run :./
-                                                main
+clean:
+	rm -f *.o *.tar main
+	clear
 
-                                                    tar
-    : tar - cvz *.h *.cpp - f Calculator.tar.gz
+tar:
+	tar -cvz makefile *.cpp -f FileName.tar
+
+zip:
+	tar -cvz makefile *.cpp -f FileName.zip
+
+tar_gz:
+	tar -cvz makefile *.cpp -f FileName.tar.gz
+
+untar:
+	tar -zxvf *.tar
+
+unzip:
+	tar -zxvf *.zip
+
+untar_gz:
+	tar -zxvf *.tar.gz
