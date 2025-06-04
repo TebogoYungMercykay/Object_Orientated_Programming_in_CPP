@@ -1,87 +1,82 @@
 # C++ Object-Oriented Programming Projects
 
-This repository contains a collection of C++ projects demonstrating various object-oriented programming concepts, data structures, and algorithms. These projects are designed to help learners understand and practice key OOP principles and common programming techniques.
+<img src="images/readme.png" style="width: 100%; height: 40%;" />
 
-## Requirements Before Running Codes
+Welcome to the **C++ Object-Oriented Programming Projects** repository! This collection showcases a variety of C++ projects that demonstrate core object-oriented programming (OOP) concepts, data structures, and algorithms. These projects are ideal for learners looking to deepen their understanding of C++ and OOP principles.
 
-- Install an IDE that compiles and runs C++ codes. Recommendation: VS Code
-- For WSL users: How to setup WSL Ubuntu terminal shell and run it from Visual Studio Code: [YouTube Tutorial](https://www.youtube.com/watch?v=fp45HpZuhS8&t=112s)
+## Requirements
 
-## About the Codes
+Before running the C++ code, ensure you have the following set up:
 
-- All code in this repository is written by the repository owner
-- These programs were created as practice code, practical exercises, and assignments for coding modules
+- **IDE Recommendation**: Install an IDE that supports C++ compilation and execution, such as **Visual Studio Code**.
+- **Setting up WSL Ubuntu terminal**: Follow this [guide](https://www.youtube.com/watch?v=fp45HpZuhS8&t=112s) to set up WSL on Visual Studio Code for a Linux-based terminal environment.
+- **Compiler Path Configuration**: If you encounter issues with compiler paths in VS Code, refer to this [forum discussion](https://forums.unrealengine.com/t/ue-4-27-how-to-fix-issues-in-visual-studio-code-red-squiggles-and-unable-to-resolve-configuration-with-compilerpath-c-program/568488) for troubleshooting steps.
 
 ## Projects
 
-1. **Access Control Device**: Implements a simulated access control system.
-2. **BinaryHeap.cpp**: Demonstrates the implementation of a binary heap data structure.
-3. **Calculator Simulation Using Stacks**: A calculator application utilizing stack data structures.
-4. **Chess Imitation (Mate in One)**: Simulates a chess endgame scenario focusing on mate-in-one situations.
-5. **Classes and Array of Objects**: Showcases the use of classes and arrays of objects in C++.
-6. **Doubly Linked List**: Implementation of a doubly linked list data structure.
-7. **Encryption and Decryption**: A program demonstrating basic encryption and decryption techniques.
-8. **Genetic Algorithm**: An implementation of a simple genetic algorithm.
-9. **Linear Data Structures**: Examples of various linear data structures in C++.
-10. **Linked Lists and Recursion**: Demonstrates the use of linked lists with recursive algorithms.
-11. **Matrices**: Operations and manipulations on matrices.
-12. **Neural Networking**: A basic implementation of a neural network.
-13. **Operator Overloading**: Examples of operator overloading in C++.
-14. **Operator Overloading and Inheritance**: Combines concepts of operator overloading with inheritance.
-15. **Pointers to Objects**: Demonstrates the use of pointers with objects in C++.
-16. **Polymorphism**: Examples showcasing polymorphism in C++.
-17. **Singly Linked List**: Implementation of a singly linked list data structure.
-18. **Template Classes and Vectors**: Demonstrates the use of template classes and vectors in C++.
+- **Access Control Device**: Implements a simulated access control system.
+- **BinaryHeap.cpp**: Demonstrates the implementation of a binary heap data structure.
+- **Calculator Simulation Using Stacks**: A calculator application utilizing stack data structures.
+- **Chess Imitation (Mate in One)**: Simulates a chess endgame scenario focusing on mate-in-one situations.
+- **Classes and Array of Objects**: Showcases the use of classes and arrays of objects in C++.
+- **Doubly Linked List**: Implementation of a doubly linked list data structure.
+- **Encryption and Decryption**: A program demonstrating basic encryption and decryption techniques.
+- **Genetic Algorithm**: An implementation of a simple genetic algorithm.
+- **Linear Data Structures**: Examples of various linear data structures in C++.
+- **Linked Lists and Recursion**: Demonstrates the use of linked lists with recursive algorithms.
+- **Matrices**: Operations and manipulations on matrices.
+- **Neural Networking**: A basic implementation of a neural network.
+- **Operator Overloading**: Examples of operator overloading in C++.
+- **Operator Overloading and Inheritance**: Combines concepts of operator overloading with inheritance.
+- **Pointers to Objects**: Demonstrates the use of pointers with objects in C++.
+- **Polymorphism**: Examples showcasing polymorphism in C++.
+- **Singly Linked List**: Implementation of a singly linked list data structure.
+- **Template Classes and Vectors**: Demonstrates the use of template classes and vectors in C++.
 
 ## Makefile
 
-A Makefile is included to compile and run the codes on the terminal with the following commands:
+A Makefile is provided to simplify the process of compiling and running the C++ code via the terminal.
 
-```
-make clean
-make
-make run
-```
+- Makefile Commands:
+  - **`make`**: Compiles the `.cpp` files and generates an executable named `main`.
+  - **`make run`**: Runs the executable using `valgrind` to check for memory leaks.
+  - **`make clean`**: Removes the executable and object files, and clears the terminal.
+  - **`make tar`**: Compresses the source files and the Makefile into a `.tar.gz` archive.
+  - **`make untar`**: Extracts files from the `.tar.gz` archive.
 
-Here's the content of the Makefile:
+- Makefile
+	```Makefile
+	main:
+		g++ -g *.cpp -std=c++98 -pedantic -o main
 
-```makefile
-main:
-	g++ -g *.cpp -std=c++98 -pedantic -o main
+	clean:
+		rm -f *.o *.tar.gz main
+		reset
+		clear
 
-clean:
-	rm -f *.o *.tar.gz main
-	reset
-	clear
+	run:
+		valgrind --leak-check=full ./main
 
-run:
-	valgrind --leak-check=full ./main
+	tar:
+		tar -cvz *.* -f Code.tar.gz
 
-tar:
-	tar -cvz *.* -f Code.tar.gz
-
-untar:
-	tar -zxvf *.tar.gz
-```
-
-## Getting Started
-
-To run these projects:
-
-1. Ensure you have a C++ compiler installed on your system.
-2. Clone this repository to your local machine.
-3. Navigate to the project directory you want to run.
-4. Use the provided Makefile commands to compile and run the programs.
+	untar:
+		tar -zxvf *.tar.gz
+	```
 
 ## Contributing
 
-While this repository primarily contains personal practice code, contributions to improve existing projects or add new ones may be considered. If you'd like to contribute:
+This project is primarily for personal learning and demonstration purposes. However, if you have suggestions for improvements, feel free to open an issue or submit a pull request.
+
+To contribute:
 
 1. Fork the repository.
-2. Create a new branch for your feature.
-3. Add your changes.
-4. Submit a pull request with a clear description of your improvements.
+2. Create a new branch for your feature or fix.
+3. Commit your changes.
+4. Submit a pull request with a clear description.
 
 ## License
 
-This project is open source. Please check the repository for any specific license information.
+This project is open source. Please refer to the repository for specific license details.
+
+---
